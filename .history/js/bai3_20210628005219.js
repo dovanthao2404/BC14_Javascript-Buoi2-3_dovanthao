@@ -10,7 +10,7 @@ returnCurrencyExchange.onclick = function () {
     var resultSuccess = `${totalMoney} VND`;
     showResult(resultSuccess);
   } else {
-    var resultFailure = `Vui lòng nhập giá trị hợp lệ.`;
+    var resultFailure = `VVui lòng nhập giá trị hợp lệ.`;
     showResult(resultFailure);
   }
 };
