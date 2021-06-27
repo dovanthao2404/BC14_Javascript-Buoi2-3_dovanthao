@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.salary__form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: aqua;
+}
+.salary__form label {
+  font-size: 20px;
+}
+.salary__form button {
+  /* display: block; */
+  margin: auto;
+  margin-top: 40px;
+}
+#divContent p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: red;
+}
