@@ -29,7 +29,7 @@ function handlResult(sum) {
     showResult(resultFailure);
   } else {
     var average = sum / DIVIDEND;
-    var resultSuccess = `Trung Bình:  ${average.toFixed(2)}`;
+    var resultSuccess = `Trung Bình:  ${average}`;
     showResult(resultSuccess);
   }
 }

@@ -7,7 +7,7 @@ var returnCurrencyExchange = document.getElementById("returnCurrencyExchange");
 returnCurrencyExchange.onclick = function () {
   if (!isNaN(amountMoney.value) && amountMoney.value >= 0) {
     var totalMoney = amountMoney.value * EXCHANGE_RATE;
-    var resultSuccess = `${totalMoney.toFixed(2)} VND`;
+    var resultSuccess = `${totalMoney} VND`;
     showResult(resultSuccess);
   } else {
     var resultFailure = `Vui lòng nhập giá trị hợp lệ.`;

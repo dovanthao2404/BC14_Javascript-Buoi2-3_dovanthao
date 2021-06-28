@@ -20,8 +20,8 @@ returnRectangle.onclick = function () {
   } else {
     var acreage = acreage(width, height);
     var perimeter = perimeter(width, height);
-    var resultAcreage = `Diện tích: ${acreage.toFixed(2)}`;
-    var resultPerimeter = `Chu vi: ${perimeter.toFixed(2)}`;
+    var resultAcreage = `Diện tích: ${acreage}`;
+    var resultPerimeter = `Chu vi: ${perimeter}`;
     showResult(resultAcreage, resultPerimeter);
   };
 

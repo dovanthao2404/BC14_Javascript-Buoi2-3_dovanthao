@@ -6,7 +6,7 @@ returnSalary.onclick = function () {
   var workingDay = document.getElementById("workingDay");
   if (!isNaN(workingDay.value) && workingDay.value >= 0) {
     var grossSalary = ONE_DAY_SALARY * workingDay.value;
-    var resultSuccess = `Tiền lương của bạn là: ${grossSalary.toFixed(2)} `;
+    var resultSuccess = `Tiền lương của bạn là: ${grossSalary}`;
     showResult(resultSuccess);
   } else {
     var resultFailure = `Vui lòng nhập giá trị hợp lệ.`;
